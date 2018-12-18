@@ -36,17 +36,17 @@ states.insert(contentsOf:["North Carolina", "South Carolina", "Nevada"],at:3)
 **Following is what you need for this book:**
 If you wish to create and publish iOS games using Swift, then this book is for you. No prior game development or experience with Apple ecosystem is needed
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-25).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-24).
 ### Software and Hardware List
 | Chapter | Software required | OS required |
-| ------- | --------------------------------|
+| ------- | ------------------|-------------|
 | 1-24    | Xcode 10          |  Mac OS X   |
 
 
 ### Related products
 * Mastering iOS 12 Programming - Third Edition [[Packt]](https://www.packtpub.com/application-development/mastering-ios-12-programming-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789133202 ) [[Amazon]](https://www.amazon.com/dp/1-789-13320-3)
 
-*  [[Packt]](https://www.packtpub.com/game-development/swift-game-development-third-edition?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1-788-47115-6)
+* Swift Game Development - Third Edition [[Packt]](https://www.packtpub.com/game-development/swift-game-development-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788471152) [[Amazon]](https://www.amazon.com/dp/1-788-47115-6)
 
 
 ## Get to Know the Author
