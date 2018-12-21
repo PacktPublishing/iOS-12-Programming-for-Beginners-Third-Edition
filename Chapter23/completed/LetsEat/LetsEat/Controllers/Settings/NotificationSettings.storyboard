@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ShD-b2-slY">
+            <objects>
+                <navigationController storyboardIdentifier="NotificationSettingsNavController" id="ubz-jr-wIr" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yrq-2y-wRH">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="AYb-1B-QEh" kind="relationship" relationship="rootViewController" id="lnb-Oh-fva"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LOx-H4-RMd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1591" y="102"/>
+        </scene>
+        <!--Notification Settings View Controller-->
+        <scene sceneID="oSA-ju-9Gj">
+            <objects>
+                <viewController storyboardIdentifier="NotificationSettingsViewController" id="AYb-1B-QEh" customClass="NotificationSettingsViewController" customModule="LetsEat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yYf-TG-E3M">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SETTINGS SCREEN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFl-SY-m0Y">
+                                <rect key="frame" x="112.5" y="323" width="150" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IFl-SY-m0Y" firstAttribute="centerY" secondItem="yYf-TG-E3M" secondAttribute="centerY" id="75f-LE-QMG"/>
+                            <constraint firstItem="IFl-SY-m0Y" firstAttribute="centerX" secondItem="yYf-TG-E3M" secondAttribute="centerX" id="biS-xv-Kpp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yBs-Pd-Gjd"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4Qf-Z4-kBK">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="ppY-x8-fwL">
+                            <connections>
+                                <action selector="onDoneTapped:" destination="AYb-1B-QEh" id="dH2-nM-QOt"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QYM-aZ-AOC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-902" y="101"/>
+        </scene>
+    </scenes>
+</document>
