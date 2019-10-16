@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -28,7 +29,7 @@
                                     <inset key="sectionInset" minX="7" minY="7" maxX="7" maxY="7"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="exploreCell" id="KVq-Fe-cgU" customClass="ExploreCell" customModule="LetsEat" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="exploreCell" id="KVq-Fe-cgU">
                                         <rect key="frame" x="7" y="107" width="164" height="195"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -72,13 +73,11 @@
                                             <constraint firstAttribute="trailing" secondItem="p9V-EN-oIf" secondAttribute="trailing" id="QlO-4K-4Fg"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="imgExplore" destination="NQw-gQ-E93" id="HrV-eu-Zpt"/>
-                                            <outlet property="lblName" destination="G5o-JZ-3VE" id="yAu-8t-bYW"/>
                                             <segue destination="b9P-Ow-LFA" kind="show" identifier="" id="aN8-f6-ZZ0"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="header" id="UIH-El-eCR" customClass="ExploreHeaderView" customModule="LetsEat" customModuleProvider="target">
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="header" id="UIH-El-eCR">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
@@ -141,9 +140,6 @@
                                         <constraint firstItem="6T5-0k-GoV" firstAttribute="leading" secondItem="UIH-El-eCR" secondAttribute="leading" constant="8" id="rVX-18-4Yx"/>
                                         <constraint firstAttribute="trailing" secondItem="h79-uF-ZTS" secondAttribute="trailing" id="yW8-5e-dh1"/>
                                     </constraints>
-                                    <connections>
-                                        <outlet property="lblLocation" destination="YLa-Kn-UAt" id="zIY-Wy-8RJ"/>
-                                    </connections>
                                 </collectionReusableView>
                                 <connections>
                                     <outlet property="dataSource" destination="Lxl-4x-FSs" id="fW0-gt-9t5"/>

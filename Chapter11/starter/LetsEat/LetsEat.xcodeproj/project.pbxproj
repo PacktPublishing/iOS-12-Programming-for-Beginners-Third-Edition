@@ -11,7 +11,6 @@
 		468BB25421A49F2B009EFEF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468BB23C21A49F2B009EFEF5 /* LaunchScreen.storyboard */; };
 		468BB25521A49F2B009EFEF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468BB23E21A49F2B009EFEF5 /* Main.storyboard */; };
 		468BB25621A49F2B009EFEF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468BB24021A49F2B009EFEF5 /* AppDelegate.swift */; };
-		468BB25721A49F2B009EFEF5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 468BB24121A49F2B009EFEF5 /* Info.plist */; };
 		468BB25821A49F2B009EFEF5 /* PhotoFilter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468BB24421A49F2B009EFEF5 /* PhotoFilter.storyboard */; };
 		468BB25921A49F2B009EFEF5 /* RestaurantDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468BB24621A49F2B009EFEF5 /* RestaurantDetail.storyboard */; };
 		468BB25A21A49F2B009EFEF5 /* Restaurants.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468BB24821A49F2B009EFEF5 /* Restaurants.storyboard */; };
@@ -228,7 +227,6 @@
 			files = (
 				468BB25D21A49F2B009EFEF5 /* Explore.storyboard in Resources */,
 				468BB25F21A49F2B009EFEF5 /* Locations.storyboard in Resources */,
-				468BB25721A49F2B009EFEF5 /* Info.plist in Resources */,
 				468BB25E21A49F2B009EFEF5 /* Map.storyboard in Resources */,
 				468BB25521A49F2B009EFEF5 /* Main.storyboard in Resources */,
 				468BB25A21A49F2B009EFEF5 /* Restaurants.storyboard in Resources */,
